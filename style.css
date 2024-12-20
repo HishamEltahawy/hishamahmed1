@@ -165,7 +165,17 @@ section{
 
 
 }
+.project-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-info p{
 
+    font-size: .4em;
+    font-weight: 200;
+    color: rgb(170, 160, 160);
+}
 .project-card:hover{
     transform: scale(1.1);
 }
